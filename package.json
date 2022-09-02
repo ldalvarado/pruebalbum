@@ -4,12 +4,41 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "aws-sdk": "^2.660.0"
+        "@coreui/coreui": "^4.2.2",
+        "@coreui/vue": "^4.3.1",
+        "autoprefixer": "^10.4.8",
+        "aws-sdk": "^2.660.0",
+        "axios": "^0.27.2",
+        "body-parser": "^1.20.0",
+        "bootstrap-vue": "^2.22.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.19",
+        "scss-loader": "^0.0.1",
+        "vue": "^3.2.38",
+        "vue-loading-overlay": "^5.0.3",
+        "vue-sweetalert2": "^5.0.5"
     },
     "devDependencies": {
-        "jest": "^25.4.0"
+        "@babel/core": "^7.18.13",
+        "@babel/preset-env": "^7.18.10",
+        "babel-loader": "^8.2.5",
+        "babel-preset-env": "^1.7.0",
+        "css-loader": "^6.7.1",
+        "jest": "^25.4.0",
+        "less-loader": "^11.0.0",
+        "postcss-loader": "^7.0.1",
+        "sass-loader": "^13.0.2",
+        "style-loader": "^3.3.1",
+        "vue-loader": "^17.0.0",
+        "vue-template-compiler": "^2.7.10",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "start": "nodemon src/index.js",
+        "webpack": "webpack --mode development --watch"
     }
 }
